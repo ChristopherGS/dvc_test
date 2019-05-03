@@ -1,0 +1,8 @@
+md5: 2416eb672ec0dfdc2bee840a618e325f
+outs:
+- cache: true
+  md5: 6cc09c9150482fe9c64ee48e517a9acc.dir
+  metric: false
+  path: packages/neural_network_model/neural_network_model/datasets
+  persist: false
+wdir: ../../..

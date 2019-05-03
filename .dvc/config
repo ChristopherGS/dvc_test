@@ -1,0 +1,4 @@
+['remote "myremote"']
+url = s3://dvctestchris/data
+[core]
+remote = myremote
