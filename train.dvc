@@ -1,0 +1,29 @@
+cmd: python packages/neural_network_model/neural_network_model/train_pipeline.py
+deps:
+- md5: ba274363a95a3ea68b2f846d1eb31a2c
+  path: packages/neural_network_model/neural_network_model/train_pipeline.py
+- md5: 6cc09c9150482fe9c64ee48e517a9acc.dir
+  path: packages/neural_network_model/neural_network_model/datasets
+md5: 77bd8e9bffba366fcf06d2d62eb71bc0
+outs:
+- cache: true
+  md5: 5482ae504d7074192ba5818997eb12e9
+  metric: false
+  path: packages/neural_network_model/neural_network_model/trained_models/cnn_model.h5
+  persist: false
+- cache: true
+  md5: 834c7f39e7c0851d84b8575f291ae67e
+  metric: false
+  path: packages/neural_network_model/neural_network_model/trained_models/cnn_pipe.pkl
+  persist: false
+- cache: true
+  md5: 935b4ac3b190d8d87f45516d8dc43b4d
+  metric: false
+  path: packages/neural_network_model/neural_network_model/trained_models/classes.pkl
+  persist: false
+- cache: true
+  md5: 59077e733c729edcdc8c61d936f2be0a
+  metric: false
+  path: packages/neural_network_model/neural_network_model/trained_models/encoder.pkl
+  persist: false
+wdir: .
